@@ -2,7 +2,7 @@ from flask import Flask,request,render_template
 import pickle
 import numpy as np
 import pandas as pd
-import os
+
 
 
 kmeans_model=pickle.load(open('FDM_kmeans.pkl','rb'))
